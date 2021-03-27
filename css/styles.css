@@ -1,9 +1,17 @@
-.body{
-    
+.navbar-keeper{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    width: 100%;
+    z-index: 2;
 }
 .navbar{
+    background: #FFFFFF;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     width: 935px;
     height: 55px;
@@ -50,13 +58,18 @@
 }
 .hline{
     height: 1px;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 55px;
     background-color: #EAEAEA;
 }
 .content{
     width: 935px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 32px;
+    margin-top: 88px;
+    display: flex;
 }
 .left-content{
     width: 614px;
