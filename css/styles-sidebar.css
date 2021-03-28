@@ -2,7 +2,7 @@
     position: fixed;
     z-index: 1;
     right: calc(50% - 468px);
-    background-color: #FFFFFF;
+    background-color: #FAFAFA;
     width: 320px;
     height: 450px;
 }
@@ -68,9 +68,51 @@
 .follow-sugestion-link:hover{
     color: #B2DFFC;
 }
-
+.bottom-sidebar-text{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: #8E8E8E;
+}
+.bottom-sidebar{
+    margin-top: 25px;
+}
+.copyright{
+    display: block;
+    margin-top: 18px;
+}
 @media (max-width: 935px){
     .right-content{
         display: none;
-    }   
+    }
+    .navbar{
+        width: 96%;
+    }
+    .search-box{
+        width: 22%;
+    }
+    .left-content{
+        width: 100%;
+    }
+    .stories-box{
+        padding-left: 12.5px;
+    }
+    .storie{
+        margin-right: 12.5px;
+    }
+    .post{
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .img-post{
+        height: auto;
+    }
+    .comment-post{
+        padding-bottom: 5px;
+    }
+}
+@media (max-width: 935px) and (min-width: 614px){
+    .content{
+        width: 85%;
+    }
 }
