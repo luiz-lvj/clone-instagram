@@ -128,7 +128,9 @@ body{
     bottom: 46.5px;
 }
 .arrow-stories{
-    text-shadow: 0 5px #FFFFFF;
+    color: #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
 }
 .stories-back{
     position: absolute;
